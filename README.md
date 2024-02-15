@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-take@esm/index.mjs';
+import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-take@v0.1.0-esm/index.mjs';
 ```
 
 #### take( x, indices\[, options] )
@@ -123,7 +123,7 @@ var y = take( x, [ -10, 10 ], {
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-linspace@esm/index.mjs';
-import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-take@esm/index.mjs';
+import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-take@v0.1.0-esm/index.mjs';
 
 // Generate a linearly spaced array:
 var x = linspace( 0, 100, 11 );
