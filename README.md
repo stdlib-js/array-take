@@ -163,6 +163,7 @@ console.log( y );
 
 ## See Also
 
+-   <span class="package-name">[`@stdlib/array-put`][@stdlib/array/put]</span><span class="delimiter">: </span><span class="description">replace specified elements of an array with provided values.</span>
 -   <span class="package-name">[`@stdlib/array-slice`][@stdlib/array/slice]</span><span class="delimiter">: </span><span class="description">return a shallow copy of a portion of an array.</span>
 
 </section>
@@ -208,8 +209,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-take.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-take
 
-[test-image]: https://github.com/stdlib-js/array-take/actions/workflows/test.yml/badge.svg?branch=v0.1.2
-[test-url]: https://github.com/stdlib-js/array-take/actions/workflows/test.yml?query=branch:v0.1.2
+[test-image]: https://github.com/stdlib-js/array-take/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-take/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-take/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-take?branch=main
@@ -246,6 +247,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
 
 <!-- <related-links> -->
+
+[@stdlib/array/put]: https://github.com/stdlib-js/array-put
 
 [@stdlib/array/slice]: https://github.com/stdlib-js/array-slice
 
