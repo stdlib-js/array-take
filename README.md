@@ -35,32 +35,38 @@ limitations under the License.
 
 > Take elements from an array.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/array-take
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var take = require( '@stdlib/array-take' );
+take = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-take@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var take = require( 'path/to/vendor/umd/array-take/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-take@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.take;
+})();
+</script>
 ```
 
 #### take( x, indices\[, options] )
@@ -133,10 +139,15 @@ var y = take( x, [ -10, 10 ], {
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
-var linspace = require( '@stdlib/array-linspace' );
-var take = require( '@stdlib/array-take' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-linspace@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-take@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 // Generate a linearly spaced array:
 var x = linspace( 0, 100, 11 );
@@ -149,6 +160,11 @@ console.log( indices );
 // Take a random sample of elements from `x`:
 var y = take( x, indices );
 console.log( y );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -242,15 +258,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-take/main/LICENSE
 
-[@stdlib/ndarray/base/ind]: https://github.com/stdlib-js/ndarray-base-ind
+[@stdlib/ndarray/base/ind]: https://github.com/stdlib-js/ndarray-base-ind/tree/umd
 
-[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
+[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/array/put]: https://github.com/stdlib-js/array-put
+[@stdlib/array/put]: https://github.com/stdlib-js/array-put/tree/umd
 
-[@stdlib/array/slice]: https://github.com/stdlib-js/array-slice
+[@stdlib/array/slice]: https://github.com/stdlib-js/array-slice/tree/umd
 
 <!-- </related-links> -->
 
