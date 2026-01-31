@@ -52,7 +52,7 @@
   "devDependencies": {
     "@stdlib/array-base-to-accessor-array": "^0.2.2",
     "@stdlib/array-base-zero-to": "^0.2.1",
-    "@stdlib/array-complex64": "^0.3.0",
+    "@stdlib/array-complex64": "^0.3.1",
     "@stdlib/array-linspace": "^0.2.1",
     "@stdlib/assert-is-array": "^0.2.2",
     "@stdlib/assert-is-same-complex64array": "^0.2.2",
