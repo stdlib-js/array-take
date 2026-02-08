@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-take@deno/mod.js';
+import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-take@v0.1.3-deno/mod.js';
 ```
 
 #### take( x, indices\[, options] )
@@ -118,7 +118,7 @@ var y = take( x, [ -10, 10 ], {
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-linspace@deno/mod.js';
-import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-take@deno/mod.js';
+import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-take@v0.1.3-deno/mod.js';
 
 // Generate a linearly spaced array:
 var x = linspace( 0, 100, 11 );
