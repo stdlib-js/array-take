@@ -1,4 +1,4 @@
-"use strict";var i=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var o=i(function(x,n){
+"use strict";var i=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(t){throw (r=0, t)}};};var o=i(function(x,n){
 function c(){return{mode:"normalize"}}n.exports=c
 });var l=i(function(C,m){
 var p=require('@stdlib/assert-is-plain-object/dist'),b=require('@stdlib/assert-has-own-property/dist'),w=require('@stdlib/ndarray-base-assert-is-index-mode/dist'),h=require('@stdlib/ndarray-index-modes/dist'),s=require('@stdlib/error-tools-fmtprodmsg/dist');function y(e,r){return p(r)?b(r,"mode")&&(e.mode=r.mode,!w(e.mode))?new TypeError(s('1s14S',"mode",h().join('", "'),e.mode)):null:new TypeError(s('1s12V',r));}m.exports=y
