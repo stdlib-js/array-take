@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-18)
+## Unreleased (2026-09-01)
+
+<section class="features">
+
+### Features
+
+-   [`8365440`](https://github.com/stdlib-js/stdlib/commit/8365440ed4124fd16ba399f15eee6179ac6ae9a9) - add float16 dtype support to `array/take` [(#14857)](https://github.com/stdlib-js/stdlib/pull/14857)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`8365440`](https://github.com/stdlib-js/stdlib/commit/8365440ed4124fd16ba399f15eee6179ac6ae9a9) - **feat:** add float16 dtype support to `array/take` [(#14857)](https://github.com/stdlib-js/stdlib/pull/14857) _(by Gururaj Gurram)_
 -   [`81e87d4`](https://github.com/stdlib-js/stdlib/commit/81e87d4457c65ba7481c7ab3701d2ee97d50c052) - **bench:** refactor to use string interpolation in `array` [(#11413)](https://github.com/stdlib-js/stdlib/pull/11413) _(by Karan Anand)_
 
 </details>
@@ -24,8 +35,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Gururaj Gurram
 -   Karan Anand
 
 </section>
